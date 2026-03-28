@@ -57,15 +57,19 @@ Bu depo, basit bir raporun ötesinde, derinlemesine analizler içeren bir külli
 
 ### 2. Teknik ve Analitik Derinlik
 *   🛡️ **[Vaka Analizleri (Case Studies)](docs/TECHNICAL_CASE_STUDIES.md):** Jamming, yörünge ihlali ve siber saldırı durumlarında uygulanacak "Playbook"lar.
-*   🔬 **[SSA Metodolojisi (Technical Strategy)](docs/SSA_METHODOLOGY.md):** TLE verilerinin nasıl işlendiği ve hukuki kanıta nasıl dönüştürüldüğünün teknik detayı.
+*   🔬 **[SSA Metodolojisi (Technical Strategy)](docs/SSA_METHODOLOGY.md):** Teknik verilerin hukuki delile dönüştürülme süreci.
+*   💻 **[SSA Simulator (POC)](scripts/ssa_simulator.py):** Python tabanlı otonom ihlal tespit simülatörü (Proof of Concept).
 *   📊 **[Risk Yönetim Matrisi (Risk Matrix)](docs/RISK_MANAGEMENT_MATRIX.md):** Uzay egemenliğimize yönelik tehditlerin olasılık ve etki analizleri.
+*   🚨 **[Güvenlik Protokolü (Security Protocol)](docs/SPACE_SECURITY_PROTOCOL.md):** Kurumsal yanıt Standard İşleyiş Prosedürleri (SOP).
 
 ### 3. Küresel Kıyaslama ve Sürdürülebilirlik
+*   ⚖️ **[Milli Uzay Kanunu Taslağı (Model Law)](docs/MODEL_SPACE_LAW_TURKEY.md):** Türkiye için kapsamlı bir yasal düzenleme önerisi (Madde madde).
 *   📈 **[Küresel Kıyaslama (Benchmarking)](docs/SPACE_LAW_COMPARATIVE_ANALYSIS.md):** ABD, AB ve Lüksemburg modelleri ile Türkiye'nin hibrit yaklaşımının karşılaştırılması.
 *   ♻️ **[Sürdürülebilirlik Raporu (Vision 2050)](docs/SUSTAINABILITY_REPORT.md):** Uzay enkazı yönetimi ve gelecek nesillerin yörünge hakları üzerine uzun vadeli vizyon.
 *   ✅ **[Denetim Listesi (Compliance)](docs/COMPLIANCE_CHECKLIST.md):** Uzay faaliyeti yürütecek yerli firmalar için hukuki uyumluluk rehberi.
 
-### 4. Akademik Altyapı
+### 4. Akademik Altyapı & Küresel Erişim
+*   🇬🇧 **[English Whitepapers (International)](docs/en/STRATEGIC_FRAMEWORK.md):** Global audience analytical abstracts.
 *   📑 **[TUA Hedef Uyumu (National Alignment)](docs/TUA_ALIGNMENT.md):** Projenin Milli Uzay Programı'ndaki 10 hedefle doğrudan eşleşme analizi.
 *   📚 **[Akademik Kaynakça (Bibliography)](docs/RESEARCH_BIBLIOGRAPHY.md):** Kullanılan uluslararası kaynaklar, regülasyonlar ve literatür.
 *   📖 **[Terimler Sözlüğü (Glossary)](docs/GLOSSARY.md):** Uzay hukuku ve teknolojisi kavram rehberi.
