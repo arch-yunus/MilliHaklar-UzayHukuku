@@ -1,29 +1,26 @@
-# TUA Astrohackathon: Milli Hakların Savunulması & Uzay Hukuku
+# TUA Astrohackathon: Milli Hakların Savunulması & Uzay Hukuku Ecosystem
 
 ![Milli Haklar - Uzay Hukuku Banner](assets/banner.png)
 
 [![TUA Astrohackathon](https://img.shields.io/badge/TUA-Astrohackathon-blue?style=for-the-badge&logo=nasa)](https://tua.gov.tr)
 [![Konu](https://img.shields.io/badge/Konu-Uzay_Hukuku-success?style=for-the-badge&logo=scales)](docs/LEGAL_FRAMEWORK.md)
+[![Status](https://img.shields.io/badge/Status-World--Class_Ecosystem-darkgreen?style=for-the-badge)](docs/TUA_ALIGNMENT.md)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
 
-## 🌌 Proje Hakkında
-Bu depo, **Türkiye Uzay Ajansı (TUA) Astrohackathon** kapsamında "Milli Hakların Savunulması" odaklı Uzay Hukuku problemi için geliştirilen kapsamlı politika önerilerini, stratejik yol haritasını ve araştırma çıktılarını içermektedir. 
+## 🌌 Vizyon ve Misyon
+Bu depo, **Türkiye Uzay Ajansı (TUA) Astrohackathon** kapsamında "Milli Hakların Savunulması" odağında geliştirilmiş, Türkiye'nin uzaydaki egemenlik haklarını korumayı amaçlayan **dünya standartlarında bir hukuki-teknik ekosistemdir**. 
 
-Geleceğin dünyasında egemenlik, sadece karada, denizde ve havada değil; uzayın derinliklerinde, yörünge slotlarında ve frekans spektrumlarında savunulacaktır.
+Gelecekte egemenlik, sadece karada veya denizde değil; yörünge slotlarında, frekans spektrumlarında ve derin uzay istasyonlarında savunulacaktır. Bu proje, "Göklerdeki İstikbalimiz" için bu savunmanın hem teknik hem de hukuki kalkanını inşa etmektedir.
 
 ---
 
-## 🏛️ Stratejik İçerik
+## 🏛️ Stratejik Mimari: Üç Katmanlı Savunma Kalkanı (The Shield)
 
-### 1. Yüksek Düzey Özet (Executive Summary)
-Projemiz, Türkiye'nin uzaydaki milli çıkarlarını (yörünge hakları, frekans tahsisleri, uzay varlıklarının siber güvenliği) savunmak için **"Üç Katmanlı Hukuki-Teknik Savunma Kalkanı"** (Three-Layered Legal-Tech Defense Shield) modelini önermektedir. Bu model, statik hukuk kurallarını dinamik uzay farkındalığı (SSA) verileriyle birleştirerek, olası ihlallere karşı anında hukuki delillendirme ve diplomatik yanıt mekanizması sağlar.
-
-### 2. Üç Katmanlı Savunma Mimarisi
-Aşağıdaki diyagram, teknik verilerin hukuki argümanlara nasıl dönüştüğünü özetlemektedir:
+Projemiz, statik hukuk kurallarını dinamik Uzay Durumsal Farkındalık (SSA) verileriyle birleştiren hibrit bir savunma modelidir:
 
 ```mermaid
 graph TD
-    A[Uzay Farkındalığı / SSA Verileri] -->|Tespit| B{Olası İhlal}
+    A[Uzay Farkındalığı / SSA Verileri] -->|Sürekli İzleme| B{Anomali Tespiti}
     B -->|Siber/Sinyal| C[Siber Savunma & Delillendirme]
     B -->|Yörünge/Fiziksel| D[Yörünge Güvenlik Protokolü]
     C --> E[Milli Uzay Hukuku Veritabanı]
@@ -33,7 +30,7 @@ graph TD
     style G fill:#f96,stroke:#333,stroke-width:4px
 ```
 
-### 3. Milli Uzay Hukuku Döngüsü
+### 🎯 Milli Uzay Hukuku Döngüsü
 Geleceğin "Milli Uzay Kanunu" için önerdiğimiz dinamik süreç:
 
 ```mermaid
@@ -45,27 +42,52 @@ graph LR
     L --> H
 ```
 
-### 4. Teknik Yaklaşım & Metodoloji
-Multidisipliner bir yaklaşım sergileyerek, hukuk ve politikayı bir "sistem mimarisi" olarak ele alıyoruz:
-*   **Veri Odaklı Politika Tasarımı:** Uzay enkazı ve yörünge çakışmalarının analiz edilerek hukuki argümanların bu verilere dayandırılması.
-*   **Sistem Optimizasyonu:** Ulusal uzay politikalarının, uluslararası yasal çerçevelerle (yapay zeka karar destek sistemleri kullanılarak) optimize edilmesi.
+---
+
+## 📂 Kapsamlı Belgelendirme Ekosistemi
+
+Bu depo, basit bir raporun ötesinde, derinlemesine analizler içeren bir külliyattır:
+
+### 1. Temel Dokümantasyon
+*   📜 **[Stratejik Çerçeve (Legal Framework)](docs/LEGAL_FRAMEWORK.md):** Uluslararası anlaşmalar (OST, Liability, Registration) ve Türkiye'nin konumu üzerine akademik analiz.
+*   ⚖️ **[Politika Önerileri (Policy Recommendations)](docs/POLICY_RECOMMENDATIONS.md):** Türkiye'nin gelecekteki **Milli Uzay Kanunu** için somut madde ve strateji önerileri.
+*   🌍 **[Executive Abstract](docs/ENGLISH_ABSTRACT.md):** International project summary for global outreach.
+
+### 2. Teknik ve Analitik Derinlik
+*   🛡️ **[Vaka Analizleri (Case Studies)](docs/TECHNICAL_CASE_STUDIES.md):** Jamming, yörünge ihlali ve siber saldırı durumlarında uygulanacak "Playbook"lar.
+*   🔬 **[SSA Metodolojisi (Technical Strategy)](docs/SSA_METHODOLOGY.md):** TLE verilerinin nasıl işlendiği ve hukuki kanıta nasıl dönüştürüldüğünün teknik detayı.
+*   📊 **[Risk Yönetim Matrisi (Risk Matrix)](docs/RISK_MANAGEMENT_MATRIX.md):** Uzay egemenliğimize yönelik tehditlerin olasılık ve etki analizleri.
+
+### 3. Küresel Kıyaslama ve Sürdürülebilirlik
+*   📈 **[Küresel Kıyaslama (Benchmarking)](docs/SPACE_LAW_COMPARATIVE_ANALYSIS.md):** ABD, AB ve Lüksemburg modelleri ile Türkiye'nin hibrit yaklaşımının karşılaştırılması.
+*   ♻️ **[Sürdürülebilirlik Raporu (Vision 2050)](docs/SUSTAINABILITY_REPORT.md):** Uzay enkazı yönetimi ve gelecek nesillerin yörünge hakları üzerine uzun vadeli vizyon.
+*   ✅ **[Denetim Listesi (Compliance)](docs/COMPLIANCE_CHECKLIST.md):** Uzay faaliyeti yürütecek yerli firmalar için hukuki uyumluluk rehberi.
+
+### 4. Akademik Altyapı
+*   📑 **[TUA Hedef Uyumu (National Alignment)](docs/TUA_ALIGNMENT.md):** Projenin Milli Uzay Programı'ndaki 10 hedefle doğrudan eşleşme analizi.
+*   📚 **[Akademik Kaynakça (Bibliography)](docs/RESEARCH_BIBLIOGRAPHY.md):** Kullanılan uluslararası kaynaklar, regülasyonlar ve literatür.
+*   📖 **[Terimler Sözlüğü (Glossary)](docs/GLOSSARY.md):** Uzay hukuku ve teknolojisi kavram rehberi.
 
 ---
 
-## 📂 Kapsamlı Belgelendirme (Ecosystem)
-*   📜 **[Stratejik Çerçeve (Legal Framework)](docs/LEGAL_FRAMEWORK.md):** Uluslararası anlaşmalar ve Türkiye'nin konumu üzerine detaylı analiz.
-*   ⚖️ **[Politika Önerileri (Policy Recommendations)](docs/POLICY_RECOMMENDATIONS.md):** Milli Uzay Kanunu için somut yasal tavsiyeler.
-*   🛡️ **[Vaka Analizleri (Case Studies)](docs/TECHNICAL_CASE_STUDIES.md):** Olası kriz anlarında siber ve teknik yanıt senaryoları.
-*   🔬 **[SSA Metodolojisi (Technical Strategy)](docs/SSA_METHODOLOGY.md):** Teknik verilerin hukuki delile dönüştürülme süreci.
-*   📑 **[TUA Hedef Uyumu (National Alignment)](docs/TUA_ALIGNMENT.md):** Milli Uzay Programı hedefleri ile projenin entegrasyonu.
-*   ✅ **[Denetim Listesi (Compliance)](docs/COMPLIANCE_CHECKLIST.md):** Uluslararası standartlarda uyumluluk kontrol listesi.
-*   📚 **[Akademik Kaynakça (Bibliography)](docs/RESEARCH_BIBLIOGRAPHY.md):** Kullanılan uluslararası kaynaklar ve referanslar.
-*   🌍 **[English Abstract](docs/ENGLISH_ABSTRACT.md):** International project summary.
-*   📖 **[Terimler Sözlüğü (Glossary)](docs/GLOSSARY.md):** Uzay hukuku ve teknolojisi kavram rehberi.
-*   🤝 **[Katkı Sağlama Rehberi](CONTRIBUTING.md):** Araştırmaya nasıl destek verebilirsiniz?
+## 🗺️ Proje Yol Haritası (Roadmap)
+
+```mermaid
+timeline
+    title Milli Uzay Hukuku Savunma Kalkanı Gelişim Süreci
+    Faz 1 : Mevcut Durum Analizi : Uluslararası Anlaşmaların İncelenmesi : Türkiye'nin Varlık Envanteri
+    Faz 2 : Teknik-Hukuk Entegrasyonu : SSA Veri Akış Modeli : Otomatik Delillendirme Yazılımı (Prototip)
+    Faz 3 : Mevzuat Hazırlığı : Milli Uzay Kanunu Önerisi : Sigorta ve Lisanslama Rejimi
+    Faz 4 : Küresel Uygulama : BM ve ITU Nezdinde Aktif Diplomasi : Uzay Güvenlik İttifakları
+```
+
+---
 
 ## 🚀 Astrohackathon Hakkında
-Astrohackathon, uzay ve havacılık tutkunlarının bir araya gelerek yenilikçi fikirler geliştirebilecekleri bir platformdur. Bu proje, "Göklerdeki İstikbalimiz" için hukuki bir temel atmayı amaçlar.
+Astrohackathon, uzay ve havacılık tutkunlarının bir araya gelerek yenilikçi fikirler geliştirebilecekleri bir platformdur. Bu proje, "Astrohackathon: Milli Hakların Savunulması" problemi için **uçtan uça bir çözüm** olarak tasarlanmıştır.
+
+## 🤝 Katkı Sağlama
+Geleceğin uzay hukukunu birlikte inşa etmek için [katkı sağlama rehberine](CONTRIBUTING.md) göz atabilirsiniz.
 
 ---
-*Bu çalışma bir politika araştırma raporu olup, teknik çıktılar ve belgeler bu depo üzerinden yönetilmektedir.*
+*Bu çalışma, Türkiye Uzay Ajansı'nın "Göklerdeki İstikbalimiz" vizyonuna adanmıştır.*
