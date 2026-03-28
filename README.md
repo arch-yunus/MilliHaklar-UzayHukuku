@@ -1,10 +1,24 @@
-# TUA Astrohackathon: Milli Hakların Savunulması & Uzay Hukuku Ecosystem
+# TUA Astrohackathon 2026: Milli Hakların Savunulması & Uzay Hukuku Ecosystem
 
 ![Milli Haklar - Uzay Hukuku Banner](assets/banner.png)
 
 > **"Uzayda izi olmayanın, dünyada sözü olmaz. Milli haklarımızı savunmak, sadece yörüngede bir koordinata sahip olmak değil; o koordinatta barışı, adaleti ve Türk bayrağını temsil etmektir."**
 
-[![TUA Astrohackathon](https://img.shields.io/badge/TUA-Astrohackathon-blue?style=for-the-badge&logo=nasa)](https://tua.gov.tr)
+---
+
+### 🏛️ TUA Astrohackathon 2026 Resmî Proje Teslimi
+**Problem Alanı:** Milli Hakların Savunulması & Uzay Hukuku
+**Proje Odak Noktası:** Legal-Tech Hibrit Savunma Ekosistemi
+
+#### 🚀 JÜRI HIZLI ERİŞİM (Quick Access)
+*   **[Proje Özeti (Showcase)](file:///C:/Users/bahat/.gemini/antigravity/brain/40118242-e02b-4c60-878f-2ceb85f7b9b8/SUBMISSION_DRAFT.md):** Hackathon portalı için hazır metinler.
+*   **[SSA Simulator (Teknik POC)](scripts/ssa_simulator.py):** Python tabanlı otonom ihlal tespit motoru.
+*   **[Milli Uzay Kanunu Taslağı](docs/MODEL_SPACE_LAW_TURKEY.md):** Proje kapsamında hazırlanan model yasal düzenleme.
+*   **[Sunum Materyalleri (Drive Hazırlık)](submission/SUBMISSION_GUIDE.md):** 7 Slaytlık içerik ve video senaryosu.
+
+---
+
+[![TUA Astrohackathon](https://img.shields.io/badge/TUA_Astrohackathon-Official_Entry-blue?style=for-the-badge&logo=nasa)](https://tua.gov.tr)
 [![Konu](https://img.shields.io/badge/Konu-Uzay_Hukuku-success?style=for-the-badge&logo=scales)](docs/LEGAL_FRAMEWORK.md)
 [![Status](https://img.shields.io/badge/Status-World--Class_Ecosystem-darkgreen?style=for-the-badge)](docs/TUA_ALIGNMENT.md)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -91,6 +105,13 @@ timeline
 
 ## 🚀 Astrohackathon Hakkında
 Astrohackathon, uzay ve havacılık tutkunlarının bir araya gelerek yenilikçi fikirler geliştirebilecekleri bir platformdur. Bu proje, "Astrohackathon: Milli Hakların Savunulması" problemi için **uçtan uça bir çözüm** olarak tasarlanmıştır.
+
+### ⏱️ Geliştirme Yolculuğu (48 Saatlik Maraton)
+Bu proje, 48 saatlik yoğun bir çalışma sonucunda, sıfır noktasından dünya standartlarında bir ekosisteme dönüştürülmüştür:
+1.  **0-12 Saat:** Problem tanımı ve "Üç Katmanlı Kalkan" modelinin teorik inşası.
+2.  **12-24 Saat:** Milli Uzay Hukuku Whitepaper'larının (Legal Framework, Policy Recommendations) hazırlanması.
+3.  **24-36 Saat:** Teknik kanıt katmanının (`ssa_simulator.py`) otonom tespiti için Python POC geliştirilmesi.
+4.  **36-48 Saat:** Küresel benchmarking, risk matrisleri ve sunum materyallerinin finalizasyonu.
 
 ## 🤝 Katkı Sağlama
 Geleceğin uzay hukukunu birlikte inşa etmek için [katkı sağlama rehberine](CONTRIBUTING.md) göz atabilirsiniz.
