@@ -60,6 +60,55 @@ graph LR
 
 ---
 
+## 🏗️ Mimari Derin Dalış (Architectural Deep-Dive)
+
+"Milli Haklar Savunma Kalkanı" sadece bir kavram değil, operasyonel bir iş akışıdır:
+
+### 1. Katman: Teknik İzleme (SSA Monitoring)
+Bu katman, uzaydaki varlıklarımızın "dijital ikizlerini" oluşturur. TLE (Two-Line Element) verilerini kullanarak yörünge sapmalarını ve RF (Radyo Frekansı) analizlerini izler. 
+- **Veri Kaynağı:** Yerli SSA sensörleri ve uluslararası açık veri ağları.
+- **Çıktı:** Anomali raporu (Örn: "Türksat-6A'ya 2km mesafede yabancı uydu tespiti").
+
+### 2. Katman: Hukuku Eşleştirme (Legal Mapping)
+Tespit edilen anomali, sistemdeki "Hukuki Karar Motoru"na iletilir. Bu motor, ihlali kategorize eder:
+- **Müdahale Türü:** Fiziksel ihlal ise *Liability Convention 1972* m. II; sinyal karıştırma ise *ITU Radio Regulations* m. 15 kapsamında değerlendirilir.
+- **Hedef:** Statik hukuk metinlerini dinamik teknik verilere "referans" haline getirmek.
+
+### 3. Katman: Diplomatik-Teknik Yanıt (Institutional Action)
+Hazırlanan kanıt paketi, ilgili kurumlara (TUA, MSB, BTK) iletilerek uluslararası platformlarda Türkiye'nin elini güçlendirir.
+
+---
+
+## 🏛️ Milli Kurumsal Hizalanma (Institutional Matrix)
+
+Uzay haklarımızın savunulması, kurumlar arası tam eşgüdüm gerektirir:
+
+| Kurum | Rol ve Sorumluluk | Kalkan Katmanındaki Yeri |
+| :--- | :--- | :--- |
+| **Türkiye Uzay Ajansı (TUA)** | Genel Koordinasyon & Tescil Yönetimi | Milli Uzay Sicili & Strateji |
+| **Milli Savunma Bak. (MSB)** | Fiziksel ve Siber Güvenlik | Teknik izleme & Meşru Müdafaa |
+| **Ulaştırma ve Altyapı Bak. / BTK** | Frekans ve Yörünge Hakları (ITU) | Frekans Savunma & Sinyal Analizi |
+| **Dışişleri Bakanlığı** | Uluslararası Diplomasi / BM Nezdinde Temsil | Hukuki Yanıt & Nota İletimi |
+
+---
+
+## 💻 Teknik Kullanım Rehberi (SSA Simulator)
+
+Ekosistemimizde yer alan `scripts/ssa_simulator.py` dosyası, sistemin nasıl çalıştığına dair bir **Proof of Concept (POC)** sunar.
+
+### Nasıl Çalıştırılır?
+1.  Sisteminizde Python 3'ün kurulu olduğundan emin olun.
+2.  Terminalden ilgili klasöre gidin: `cd scripts`
+3.  Komutu çalıştırın: `python ssa_simulator.py`
+
+### Ne Görürsünüz?
+Simülatör, bir "İstila Senaryosunu" canlı olarak işler:
+1.  Yabancı bir uydunun milli uydumuza tehlikeli yakınlaşmasını tespit eder.
+2.  İhlali ilgili BM anlaşmasıyla eşleştirir.
+3.  **HUKUKİ İHLAL TESPİT EDİLDİ!** uyarısı vererek delil dosyasını simüle eder.
+
+---
+
 ## 📂 Kapsamlı Belgelendirme Ekosistemi
 
 Bu depo, basit bir raporun ötesinde, derinlemesine analizler içeren bir külliyattır:
