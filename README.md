@@ -2,6 +2,8 @@
 
 ![Milli Haklar - Uzay Hukuku Banner](assets/banner.png)
 
+> **"Uzayda izi olmayanın, dünyada sözü olmaz. Milli haklarımızı savunmak, sadece yörüngede bir koordinata sahip olmak değil; o koordinatta barışı, adaleti ve Türk bayrağını temsil etmektir."**
+
 [![TUA Astrohackathon](https://img.shields.io/badge/TUA-Astrohackathon-blue?style=for-the-badge&logo=nasa)](https://tua.gov.tr)
 [![Konu](https://img.shields.io/badge/Konu-Uzay_Hukuku-success?style=for-the-badge&logo=scales)](docs/LEGAL_FRAMEWORK.md)
 [![Status](https://img.shields.io/badge/Status-World--Class_Ecosystem-darkgreen?style=for-the-badge)](docs/TUA_ALIGNMENT.md)
